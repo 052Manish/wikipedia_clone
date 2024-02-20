@@ -1,0 +1,310 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+   width: 80%;
+    margin: auto;
+    /* background: #d4c4c4; */
+}
+.menu{
+    height: 2vh;
+    width: 1vw;
+    /* margin-left: 60px; */
+    /* margin-right: 19px; */
+    /* padding-top: 20px; */
+    /* background: #000; */
+}
+.first{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.wiki{
+    height: 6vh;
+    margin-right: 1px;
+    /* padding: 5px; */
+    /* background: #000; */
+}
+.first div{
+    /* padding-top: 1.4vh; */
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.first form input{
+    /* margin-left: 3rem; */
+    width: 24rem;
+    /* height: 1.7rem; */
+    /* margin-right: 0px; */
+    background: transparent;
+    border: none;
+}
+.first form button{
+    /* width: 5rem; */
+    /* height: 1.9rem; */
+    /* margin-left: 0; */
+    /* background: transparent; */
+    /* border: none; */
+}
+.search{
+    background-color: rgb(251, 252, 252);
+    border: 1px solid black;
+    height: 29px;
+    margin-top: 5px;
+    /* line-height: 0.1; */
+    /* padding: 0; */
+    display: flex;
+    outline: none;
+    margin-left: 30px;
+}
+.search button{
+    width: 5rem;
+    border: none;
+    border-left: 1px solid black;
+    background-color:white;
+}
+.account{
+    display: flex;
+    justify-content:space-between;
+    /* background-color: red; */
+    width: 11rem;
+    margin-right: 39px;
+
+}
+.content{
+    background: #f8f9f6;
+    width: 60%;
+    margin: auto;
+}
+
+.hori{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(52, 51, 51);
+    border-bottom: 1px solid rgb(69, 67, 67);
+    height: 32px;
+    align-items: center;
+    margin-top: 1.8rem;
+}
+.main1{
+    display: flex;
+    gap: 20px;
+}
+.main2{
+    display: flex;
+    gap: 17px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.welcome{
+    display: flex;
+    width: 59%;
+    margin: auto;
+    /* background-color: rgb(21, 199, 199); */
+   border: 12px solid #ACF;
+   margin-top: 1rem;
+   justify-content:center;
+   text-align: center;
+   
+}
+.welcome1{
+    /* display: flex; */
+    /* justify-content: center; */
+    line-height: 1.3rem;
+    padding-top: 2.2rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
+    width: 100%;
+    margin: 0.1rem;
+    /* padding: 1px; */
+}
+.welcome1 h2{
+    font-size: 170%;
+    font-family:'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    margin-bottom: 1.4rem;
+}
+.welcome1 h6{
+    font-size: 90%;
+    margin-bottom: 0.6rem;
+}
+.welcome1 form input{
+    height: 1.8rem;
+    width: 12rem;
+}
+.welcome1 form button{
+    width: 4rem;
+    height: 2rem;
+}
+.bor{
+    border: 1px solid black;
+    /* max-width: 60%; */
+    width: 100%;
+    margin: 0.1rem;
+}
+.section1,.section2{
+    width: 59%;
+    margin: auto;
+    border: 12px solid #ACF;
+    margin-top: 0.6rem;
+}
+.abt{
+    display: flex;
+}
+.about{
+    width: 50%;
+    border: 1px solid black;
+    margin: 0.1rem;
+    padding: 0.6rem;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+.article{
+    width: 50%;
+    border: 1px solid black;
+    margin: 0.1rem;
+    padding: 0.6rem;
+    line-height: 1.3rem;
+}
+.article img{
+    display: block;
+    margin-top: 0.4rem;
+}
+.title{
+    border: 1px solid rgb(96, 95, 95);
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    width: 95%;
+    padding-left: 1rem;
+    margin-top: 0.4 rem;
+    font-weight: bold;
+    background-color: rgb(229, 223, 223);
+}
+.bord{
+    border: 6px solid #ACF;
+}
+hr{
+    width: 80%;
+    margin-top: 1.4rem;
+    margin-left: 2rem;
+}
+.about ul{
+    margin-left: 1.5rem;
+    line-height: 1.6rem;
+    text-align: left;
+}
+.about h6{
+    font-size: 1rem;
+}
+.article span{
+    /* display: flex; */
+    float: right;
+}
+.article h4{
+    float: right;
+}
+.dummy{
+    border: 6px solid #ACF;
+}
+.head{
+    border: 1px solid rgb(96, 95, 95);
+    height: 2rem;
+    align-items: center;
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding-left: 1rem;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    background-color: rgb(229, 223, 223);
+}
+.know{
+    border: 1px solid gray;
+    /* padding: 0.5rem; */
+    margin: 0.1rem;
+}
+.know ul{
+    margin-left: 3.3rem;
+    line-height: 1.6rem;
+    text-align: left;
+    margin-top: 19px;
+}
+.img2{
+    margin-right: 7px;
+    float: right;
+}
+.conti{
+    display: flex;
+    margin-bottom: 1.4rem;
+    line-height: 1.4rem;
+    padding-right: 0.6rem;
+}
+.row{
+    display: flex;
+    margin-top: 1.9rem;
+}
+.col1,.col2{
+        width: 50%;
+        flex-wrap: wrap;
+        padding: 0.1rem;
+}
+.conti1{
+    display: flex;
+    margin-bottom: 1.4rem;
+    line-height: 1.4rem;
+    padding-left: 0.6rem;
+}
+.conti img,.conti1 img{
+    width: 30%;
+    object-fit: contain;
+    margin: 0.9rem;
+}
+.bord1{
+    border: 1px solid gray;
+    margin: 0.1rem;
+}
+.section3{
+    width: 59%;
+    margin: auto;
+    border-bottom: 12px solid #ACF;
+    border-left: 12px solid #ACF;
+    border-right: 12px solid #ACF;
+    border-top: 1px solid #ACF;;
+    /* margin-top: 0px; */
+}
+.r1{
+    display: flex;
+    justify-content: center;
+    margin-top: 2.3rem;
+    gap: 0.7rem;
+}
+.r2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.section4{
+    width: 62.5%;
+    margin: auto;
+    margin-top: 0.9rem;
+}
+.line{
+    margin-bottom: 1rem;
+    width: 100%;
+    /* margin: auto; */
+    margin-left: 7rem;
+}
+
